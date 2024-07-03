@@ -2,8 +2,8 @@
 #SBATCH --job-name="bolt"
 #SBATCH --mail-user=<>
 #SBATCH --mail-type=ALL
-#SBATCH -o bolt.o%j
-#SBATCH -e bolt.e%j
+#SBATCH -o logs/bolt.o%j
+#SBATCH -e logs/bolt.e%j
 #SBATCH --partition="highmem"
 #SBATCH -a 1-22
 

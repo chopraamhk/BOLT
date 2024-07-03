@@ -17,8 +17,8 @@
         --covarMaxLevels=100 \
         --statsFile=results/ao_GRM_bfile_${SLURM_ARRAY_TASK_ID} \
         --qCovarCol=PC{1:10} \
-        --qCovarCol=CENTRE \
-        --qCovarCol=BATCH \
+        --covarCol=CENTRE \
+        --covarCol=BATCH \
         --qCovarCol=AGE \
         --covarCol=SEX \
         --qCovarCol=HEIGHT \

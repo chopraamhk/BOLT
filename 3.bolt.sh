@@ -46,6 +46,7 @@
 #make sure to add the below as header 
 #SNP	CHR	BP	GENPOS	ALLELE1	ALLELE0	A1FREQ	INFO	CHISQ_LINREG	P_LINREG	BETA	SE	CHISQ_BOLT_LMM_INF	P_BOLT_LMM_INF
 
+#Can run FUMA, if not then cojo 
 #The below is for COJO, if interested
 #bolt_dao <- fread("/home/mchopra/Documents/gwas_new_pitch/do_combined.stats", stringsAsFactors =F)
 

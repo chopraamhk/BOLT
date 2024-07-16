@@ -32,6 +32,7 @@
         --statsFileBgenSnps=results/ao_${SLURM_ARRAY_TASK_ID}.stats \
         --bgenMinMAF=1e-3 \
         --bgenMinINFO=0.3 \
+        --predBetasFile \
         --LDscoresMatchBp \
         --lmm \
         --verboseStats \

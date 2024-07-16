@@ -45,3 +45,10 @@
 
 #make sure to add the below as header 
 #SNP	CHR	BP	GENPOS	ALLELE1	ALLELE0	A1FREQ	INFO	CHISQ_LINREG	P_LINREG	BETA	SE	CHISQ_BOLT_LMM_INF	P_BOLT_LMM_INF
+
+#The below is for COJO, if interested
+#bolt_dao <- fread("/home/mchopra/Documents/gwas_new_pitch/do_combined.stats", stringsAsFactors =F)
+
+#bolt_d <- bolt_dao[, c("SNP", "ALLELE1", "ALLELE0", "A1FREQ", "BETA", "SE", "P_BOLT_LMM_INF")]
+#bolt_d$N <- 47674
+#fwrite(bolt_d, "/home/mchopra/Documents/gwas_new_pitch/bolt_do.ma" , quote = F, row.names = F, na = NA, sep = "\t")

@@ -7,7 +7,7 @@
 #SBATCH --partition="highmem"
 #SBATCH -a 1-22
 
-# Run lmm on all chromosomes to generate summ statistics to be used by bolt
+# to find the heritability and variance 
 ../../../../../BOLT-LMM_v2.4.1/bolt \
     --bfile=/data3/mchopra/ukb_genotype_mri_passed/prune_wbi_icd10/ld_${SLURM_ARRAY_TASK_ID} \
     --phenoFile=/data3/mchopra/ukb_genotype_mri_passed/phenotypes/norm_pheno_aao.txt \
